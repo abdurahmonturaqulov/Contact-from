@@ -8,26 +8,42 @@
   <body>
     <div class="container">
       <h1><code>EASE-PEASE CONTACT FORM</code></h1>
-      <form action="#">
-        <input
-          type="text"
-          name="fName"
-          id="fName"
-          autocomplete="off"
-          placeholder="type your name..."
-        />
-        <input type="number" name="age" id="age" placeholder="type your age" />
-        <input
-          type="text"
-          name="isMarried"
-          id="isMarried"
-          placeholder="are you married🤞(yes/no)"
-        />
-        <div class="btns">
-              <button type="button"></button>
-        </div>
-      </form>
+      <br />
+      <div class="container__area">
+        <form action="#">
+          <input
+            type="text"
+            name="fName"
+            id="fName"
+            autocomplete="off"
+            placeholder="type your name..."
+          />
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="type your age"
+          />
+          <input
+            type="text"
+            name="isMarried"
+            id="isMarried"
+            placeholder="are you married🤞(yes/no)"
+          />
 
+          <div class="btns">
+            <button type="button" class="btnSubmit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+      <div class="container__text">
+      <p class="fName"></p>
+      <p class="age"></p>
+      <p class="isMarried"></p>
     </div>
+    </div>
+    
+    <p class="message"></p>
   </body>
 </html>
