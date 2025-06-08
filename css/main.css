@@ -1,7 +1,44 @@
 * {
-       padding: 0;
-       margin: 0;
-       box-sizing: border-box;
-       
-       
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: content-box;
+  padding: 0.5rem;
+  margin-top: 40px;
+}
+
+.container {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.container__area form input {
+  border: none;
+  border-bottom: 1px solid #909090;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  margin-top: 20px;
+}
+
+.btns {
+  margin-top: 30px;
+}
+.btn {
+  padding: 0.5rem;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+.btns .btnSubmit {
+  background-color: rgb(30, 173, 85);
+}
+.btns .btnReset {
+  background-color: rgb(255, 29, 29);
 }
